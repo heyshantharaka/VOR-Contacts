@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+          android:id="@+id/TableRow1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" >
+
+    <LinearLayout
+            android:id="@+id/layout_detail_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/settings_left_margin"
+            android:layout_marginLeft="@dimen/detail_view_margin"
+            android:layout_marginRight="@dimen/detail_view_margin"
+            android:layout_marginTop="@dimen/settings_left_margin"
+            android:background="@drawable/rounded_corners"
+            android:orientation="vertical" >
+
+        <TextView
+                android:id="@+id/lbl_title_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/detail_view_margin"
+                android:layout_marginTop="@dimen/detail_view_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"
+                android:textColor="@color/black_dark"/>
+
+        <TextView
+                android:id="@+id/lbl_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/detail_view_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:text="TextView" />
+    </LinearLayout>
+
+</TableRow>
